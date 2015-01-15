@@ -1,0 +1,155 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Media Library Custom Fields v1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-10-03 15:57:40+0000\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: media-library-custom-fields.php:0
+#: options.php:125
+#@ abcfmlcf-td
+msgid "Media Library Custom Fields"
+msgstr "Biblioteka mediów - dodatkowe pola"
+
+#. translators: plugin header field 'PluginURI'
+#: media-library-custom-fields.php:0
+#@ abcfmlcf-td
+msgid "http://abcfolio.com/help/wordpress-media-library-custom-fields-overview/"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: media-library-custom-fields.php:0
+#@ abcfmlcf-td
+msgid "http://www.abcfolio.com"
+msgstr ""
+
+#: media-library-custom-fields.php:59
+#@ abcfmlcf-td
+msgid "Caption"
+msgstr "Etykieta"
+
+#: media-library-custom-fields.php:140
+#: options.php:140
+#@ abcfmlcf-td
+msgid "Set Number"
+msgstr "Numer Zestawu"
+
+#: media-library-custom-fields.php:103
+#@ abcfmlcf-td
+msgid "Custom Link URL"
+msgstr "Własny odnośnik URL"
+
+#: media-library-custom-fields.php:115
+#@ abcfmlcf-td
+msgid "Custom Link Target"
+msgstr "Własnego odnośnika cel"
+
+#: options.php:25
+#@ default
+msgid "You do not have sufficient permissions to edit this site."
+msgstr ""
+
+#: options.php:105
+#: options.php:118
+#@ default
+msgid "Options saved."
+msgstr ""
+
+#: options.php:127
+#@ abcfmlcf-td
+msgid "Custom options. You can hide fields or customize field labels."
+msgstr "Własne ustawienia. Możesz ukryć pola lub zmienić nazwy nalkejek."
+
+#: options.php:136
+#@ abcfmlcf-td
+msgid "Caption "
+msgstr "Etykieta"
+
+#: options.php:137
+#@ abcfmlcf-td
+msgid "Label"
+msgstr "Etykieta"
+
+#: options.php:138
+#@ abcfmlcf-td
+msgid "Custom URL"
+msgstr "Własny odnośnik URL"
+
+#: options.php:139
+#@ abcfmlcf-td
+msgid "Custom URL Target"
+msgstr "Cel własnego odnośnika"
+
+#: options.php:142
+#@ abcfmlcf-td
+msgid " Hide"
+msgstr "Ukryj"
+
+#: options.php:180
+#@ abcfmlcf-td
+msgid "Update Options"
+msgstr "Zapisz opcje"
+
+#. translators: plugin header field 'Description'
+#: media-library-custom-fields.php:0
+#@ abcfmlcf-td
+msgid "Add custom URLs and other fields to images in WordPress media library."
+msgstr "Dodaj własne pola do obrazków w biblotece mediów WordPress."
+
+#: options.php:187
+#@ abcfmlcf-td
+msgid "Reset Options"
+msgstr "Wyczyść opcje"
+
+#: media-library-custom-fields.php:120
+#@ abcfmlcf-td
+msgid "Same Window"
+msgstr "Te same okno"
+
+#: media-library-custom-fields.php:121
+#@ abcfmlcf-td
+msgid "New Window or Tab"
+msgstr "Nowe okno lub karta"
+
+#. translators: plugin header field 'Author'
+#: media-library-custom-fields.php:0
+#@ abcfmlcf-td
+msgid "abcFolio WordPress Plugins"
+msgstr "abcFolio Wtyczki do WordPress "
+
+#. translators: plugin header field 'Version'
+#: media-library-custom-fields.php:0
+#@ abcfmlcf-td
+msgid "1.1.0"
+msgstr "1.1.0"
+
+#: media-library-custom-fields.php:128
+#@ abcfmlcf-td
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: options.php:126
+#@ abcfmlcf-td
+msgid "Documentation & Tutorials: "
+msgstr "Dokumentacja i samouczki:"
+
+#: options.php:141
+#@ abcfmlcf-td
+msgid "onclick JavaScript"
+msgstr "onclick JavaScript"
+

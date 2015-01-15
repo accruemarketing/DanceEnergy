@@ -1,0 +1,682 @@
+@charset "utf-8";
+
+/*
+* Title                   : Thumbnail Gallery (WordPress Plugin)
+* Version                 : 2.4
+* File                    : backend-style.css
+* File Version            : 1.4
+* Created / Last Modified : 01 October 2013
+* Author                  : Dot on Paper
+* Copyright               : © 2012 Dot on Paper
+* Website                 : http://www.dotonpaper.net
+* Description             : Thumbnail Gallery Admin Stylesheet.
+*/
+
+.DOPTG-admin{
+    background: #ffffff;
+    border: 1px solid #e3e3e3;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.DOPTG-clear{
+    clear: both;
+}
+
+.DOPTG-admin h2{
+    float: left;
+    min-width: 200px;
+    padding: 15px 20px 15px 10px;
+}
+
+#DOPTG-admin-message{
+    color: #909090;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    height: 30px;
+    line-height: 30px;
+    margin: 20px 0 0 0;
+    min-width: 200px;
+    opacity: 0;
+    filter: Alpha(Opacity=0);
+}
+
+#DOPTG-admin-message2{
+    color: #909090;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    height: 30px;
+    line-height: 30px;
+    margin: 20px 0 0 0;
+    min-width: 200px;
+}
+
+#DOPTG-admin-message.loader{
+    background: url("../images/loader.gif") left center no-repeat;
+    padding: 0 0 0 25px;
+}
+
+.DOPTG-help{
+    display: block;
+    float: right;
+    line-height: 29px;
+    padding: 15px 20px 15px 0;
+    text-decoration: none;
+}
+
+.DOPTG-admin .main{
+    display: none;
+    
+}
+
+/* Columns */
+.DOPTG-admin .column{
+    border: none !important;
+    float: left;
+    margin: 0 0 10px 0;
+    width: 220px;
+}
+
+.DOPTG-admin .no-data{
+    font-style: italic;
+    margin: 16px 0 0 10px;
+}
+
+.DOPTG-admin .column-separator{
+    background: #e3e3e3;
+    float: left;
+    width: 1px;
+}
+
+.DOPTG-admin .column-header{
+    border-bottom: 1px solid #e3e3e3;
+    border-top: 1px solid #e3e3e3;
+    height: 44px;
+    width: 100%;
+}
+
+.DOPTG-admin .column-content-container{
+    width: 100%;
+}
+
+.DOPTG-admin .column-content-container ul{
+    margin: 0;
+}
+
+.DOPTG-admin .button{
+    margin: 12px 0 0 10px;
+}
+
+.DOPTG-admin .column-image{
+    margin: 10px 10px 0 10px;
+    min-height: 50px;
+}
+
+.DOPTG-admin .column-image img{
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    height: auto;
+    width: 100%;
+}
+
+.DOPTG-admin .column-thumbnail-left{
+    float: left;
+    margin: 0 0 0 10px;
+}
+
+.DOPTG-admin .column-thumbnail-left .label{
+    margin: 20px 0 0 0;
+}
+
+.DOPTG-admin .column-thumbnail-right{
+    float: right;
+    margin: 0 10px 0 0;
+}
+
+.DOPTG-admin .column-thumbnail{
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    margin: 10px 0 0 0;
+    overflow: hidden;
+    width: 0px;
+}
+
+/* Form */
+.DOPTG-admin .column-input{
+    background: #ffffff;
+    border: 1px solid #e3e3e3;
+    color:#333333;
+    font-size: 12px;
+    margin: 10px 10px 0 10px;
+    padding: 5px;
+    resize: none;
+    width: 100%;
+}
+
+.DOPTG-admin .column-select{
+    background: #ffffff;
+    border: 1px solid #e3e3e3;
+    color:#333333;
+    font-size: 12px !important;
+    height: auto !important;
+    margin: 10px 10px 0 10px;
+    padding: 5px;
+    width: 50%;
+}
+
+.DOPTG-admin .label{
+    color: #888888;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    margin: 20px 0 0 10px;
+}
+
+.DOPTG-admin .select-style{
+    font-size: 12px;
+    margin: 10px 0 0 20px;
+    width: 120px;
+}
+
+.DOPTG-admin .select-style.right{
+    float: right;
+    margin: 10px 10px 0 0;
+}
+
+.DOPTG-admin .submit-style{
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #999999;
+    cursor: pointer;
+    font-size: 12px;
+    margin: 10px 0 0 10px;
+    padding: 4px 10px;
+}
+
+.DOPTG-admin .submit-style.right{
+    float: right;
+    margin: 10px 10px 0 0;
+}
+
+.DOPTG-admin .submit-style:hover{
+    background: #000000;
+    border: 1px solid #000000;
+    color: #ffffff;
+}
+
+.DOPTG-admin .submit-style:disabled{
+    background: #cccccc;
+    border: 1px solid #cccccc;
+    color: #ffffff;
+}
+
+.DOPTG-admin h3.settings{
+    border-bottom: 1px solid #888888;
+    color: #000000;
+    display: block;
+    font-size: 14px;
+    line-height: 14px;
+    margin: 30px 10px 5px 10px;
+    padding: 0 0 10px 0;
+}
+
+.DOPTG-admin h3.settings:first-child{
+    margin: 10px 10px 5px 10px;
+}
+
+.DOPTG-admin .go-top{
+    color: #bbbbbb;
+    float: right;
+    font-size: 11px;
+    margin: 32px 10px 0 0;    
+    text-decoration: none;
+}
+
+.DOPTG-admin .go-top:hover{
+    color: #000000;    
+}
+
+.DOPTG-admin .setting-box{
+    margin: 0 0 0 10px;
+    min-height: 24px;
+    padding: 5px 0 0 0;
+}
+
+.DOPTG-admin .setting-box label{
+    color: #888888;
+    display: block;
+    float: left;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 4px 0 0 0;
+    width: 150px;
+}
+
+.DOPTG-admin .setting-box .pre{
+    color: #888888;
+    display: block;
+    float: left;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 4px 0 0 0;
+    width: 10px;
+}
+
+.DOPTG-admin .setting-box .suf{
+    color: #888888;
+    display: block;
+    float: left;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 4px 0 0 0;
+    width: 30px;
+}
+
+.DOPTG-admin .setting-box input{
+    display: block;
+    float: left;
+    font-size: 12px;
+    margin: 0;
+    width: 120px;
+}
+
+.DOPTG-admin .settings input.small{
+    width: 60px;
+}
+
+.DOPTG-admin .setting-box select{
+    display: block;
+    float: left;
+    font-size: 12px;
+    margin: 0;
+    width: 120px;
+}
+
+/* Begin Switch */
+
+.DOPTG-admin .setting-box .switch{
+    float: left;
+    height: 24px;
+    position: relative;
+    width: 120px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select: none;
+}
+
+.DOPTG-admin .setting-box .switch-checkbox{
+    display: none !important;
+}
+
+.DOPTG-admin .setting-box .switch-label{
+    border: 1px solid #dfdfdf;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    height: 18px;
+    margin: 2px 0 0 0 !important;
+    overflow: hidden;
+    width: 120px !important;
+}
+
+.DOPTG-admin .setting-box .switch-inner{
+    margin-left: -100%;
+    width: 200%;
+    -webkit-transition: margin 0.3s ease-in 0s;
+    -moz-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.DOPTG-admin .setting-box .switch-inner:before,
+.DOPTG-admin .setting-box .switch-inner:after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #333333;
+    float: left;
+    font: normal 12px/18px sans-serif;
+    height: 18px;
+    padding: 0;
+    width: 50%;
+}
+
+.DOPTG-admin .setting-box .switch-inner:before{
+    background-color:#bbce3d;
+    color: #444444;
+    padding-left: 5px;
+}
+
+.DOPTG-admin .setting-box .switch-inner:after{
+    background-color: #f67f7f;
+    color: #666666;
+    padding-right: 5px;
+    text-align: right;
+}
+
+.DOPTG-admin .setting-box .switch-switch{
+    background: #e0e0e0; /* Old browsers */
+    background: -moz-linear-gradient(top,  #e0e0e0 0%, #ffffff 50%, #e0e0e0 51%, #fcfcfc 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e0e0e0), color-stop(50%,#ffffff), color-stop(51%,#e0e0e0), color-stop(100%,#fcfcfc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #e0e0e0 0%,#ffffff 50%,#e0e0e0 51%,#fcfcfc 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #e0e0e0 0%,#ffffff 50%,#e0e0e0 51%,#fcfcfc 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #e0e0e0 0%,#ffffff 50%,#e0e0e0 51%,#fcfcfc 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #e0e0e0 0%,#ffffff 50%,#e0e0e0 51%,#fcfcfc 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#fcfcfc',GradientType=0 ); /* IE6-9 */
+    border: 1px solid #cccccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    bottom: 0;
+    -webkit-box-shadow:  0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow:  0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+    height: 22px;
+    margin: 0;
+    padding: 0 !important;
+    position: absolute;
+    right: 96px;
+    top: 0;
+    width: 22px;
+    -webkit-transition: all 0.3s ease-in 0s;
+    -moz-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s; 
+}
+
+.DOPTG-admin .setting-box .switch-checkbox:checked+.switch-label .switch-inner{
+    margin-left: 0;
+}
+
+.DOPTG-admin .setting-box .switch-checkbox:checked+.switch-label .switch-switch{
+    right: -2px; 
+}
+
+/* End Switch */
+
+.DOPTG-admin .settings a.help{
+    background: url("../images/sprite.png") -100px 0;
+    display: block;
+    float: left;
+    height: 15px;
+    margin: 5px 0 0 10px;
+    width: 15px;
+}
+
+.DOPTG-admin .settings a.help:hover{
+    background: url("../images/sprite.png") -115px 0;
+}
+
+.DOPTG-admin .settings a.help-small{
+    background: url("../images/sprite.png") -100px 0;
+    display: block;
+    float: left;
+    height: 15px;
+    margin: 5px 0 0 70px;
+    width: 15px;
+}
+
+.DOPTG-admin .settings a.help-small:hover{
+    background: url("../images/sprite.png") -115px 0;
+}
+
+.DOPTG-admin .settings a.help-image{
+    background: url("../images/sprite.png") -100px 0;
+    display: block;
+    float: left;
+    height: 15px;
+    margin: 5px 0 0 40px;
+    width: 15px;
+}
+
+.DOPTG-admin .settings a.help-image:hover{
+    background: url("../images/sprite.png") -115px 0;
+}
+
+/* Add Button */
+.DOPTG-admin .add-button{
+    float: left;
+    padding: 10px 0 0 10px;
+}
+
+.DOPTG-admin .add-button a{
+    background: url("../images/sprite.png") 0 0;
+    display: block;
+    height: 24px;
+    text-decoration: none;
+    width: 24px;
+}
+
+.DOPTG-admin .add-button a:hover{
+    background: url("../images/sprite.png") -25px 0;
+}
+
+.DOPTG-admin .add-button a.selected{
+    background: url("../images/sprite.png") -25px 0;
+}
+
+/* Edit Button */
+.DOPTG-admin .edit-button{
+    float: left;
+    padding: 10px 0 0 10px;
+}
+
+.DOPTG-admin .edit-button a{
+    background: url("../images/sprite.png") -50px 0;
+    display: block;
+    height: 24px;
+    text-decoration: none;
+    width: 24px;
+}
+
+.DOPTG-admin .edit-button a:hover{
+    background: url("../images/sprite.png") -75px 0;
+}
+
+.DOPTG-admin .edit-button a.selected{
+    background: url("../images/sprite.png") -75px 0;
+}
+
+.DOPTG-admin .select-images{
+    background: #999;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5e5d5e', endColorstr='#444444');
+    background: -webkit-gradient(linear, left top, left bottom, from(#5e5d5e), to(#444444));
+    background: -moz-linear-gradient(top,  #5e5d5e,  #444444);
+    border: none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    height: 30px;
+    margin: 5px 0 0 10px;
+    width: 120px;
+}
+
+.DOPTG-admin .select-images:hover{
+    color: #ffffff;
+}
+
+/* Actions */
+.DOPTG-admin .actions-container{
+    float: left;
+    padding: 0 0 0 50px;
+}
+
+.DOPTG-admin .actions-container select{
+    margin: 0;
+    width: 150px;
+}
+
+/* Items */
+.DOPTG-admin .item{
+    background: #ededed;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #606060;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    height: 18px;
+    margin: 10px 10px 0 10px;
+    padding: 5px 10px 2px 10px;
+    width: 178px;
+}
+
+.DOPTG-admin .item:hover{
+    color: #000000;
+}
+
+.DOPTG-admin .item-selected{
+    background: #000000;
+    color: #ffffff;
+    cursor: default;
+}
+
+.DOPTG-admin .item-selected:hover{
+    border-color: #000000;
+    color: #ffffff;
+}
+
+.DOPTG-admin .item .id{
+    font-weight:bold;
+}
+
+.DOPTG-admin .item-image{
+    border: 2px #cccccc solid;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    height: 91px;
+    margin: 10px 10px 0 10px;
+    text-align: center;
+    width: 91px;
+}
+
+.DOPTG-admin .item-image .checkbox-container{
+    background: #ffffff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    margin: 0;
+    padding: 3px;
+    position: absolute;
+}
+
+.DOPTG-admin .item-image .checkbox-container input[type=checkbox]{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.DOPTG-admin .item-image span{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.DOPTG-admin .item-image:hover{
+    border: 2px #000000 solid;
+}
+
+.DOPTG-admin .item-image-selected{
+    border: 2px #000000 solid;
+}
+
+.DOPTG-admin .item-image-selected:hover{
+    border: 2px #000000 solid;
+}
+
+.DOPTG-admin .item-image-disabled{
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+.DOPTG-admin a.header-help{
+    background: url("../images/sprite.png") -100px 0;
+    display: block;
+    float: right;
+    height: 15px;
+    margin: 14px 10px 0 0;
+    width: 15px;
+}
+
+.DOPTG-admin a.header-help:hover{
+    background: url("../images/sprite.png") -115px 0;
+}
+
+.DOPTG-form{
+    border-top: 1px solid #e3e3e3;
+    padding: 5px 0 15px 0;
+}
+
+.DOPTG-form input[type=text]{
+    margin: 0 0 0 10px;
+    width: 500px;
+}
+
+.DOPTG-question{
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0 10px 5px 10px;
+}
+
+.DOPTG-answer{
+    display: none;
+    padding: 10px 10px 15px 30px;
+}
+
+/* Help Tooltip */
+
+.DOPTG-admin a.header-help span,
+.DOPTG-admin .settings a.help span,
+.DOPTG-admin .settings a.help-small span,
+.DOPTG-admin .settings a.help-image span{
+    background: #fbfbfb;
+    border: 1px solid #c0c0c0;
+    -webkit-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 0px 4px #b0b0b0;
+    -webkit-box-shadow: 0px 0px 4px #b0b0b0;
+    box-shadow: 0px 0px 4px #b0b0b0;
+    color: #606060;
+    display: none;
+    font-size: 12px;
+    line-height: 1.5em;
+    max-width: 200px;
+    padding: 10px;
+    position: absolute;
+    margin: 15px 0 0 10px;
+    z-index: 1000000;
+}
+
+.DOPTG-admin a.header-help.last span{
+    margin: 15px 0 0 -205px;
+    width: 200px;
+}
+
+.DOPTG-admin a.header-help:hover span,
+.DOPTG-admin .settings a.help:hover span,
+.DOPTG-admin .settings a.help-small:hover span,
+.DOPTG-admin .settings a.help-image:hover span{
+    display: block;
+}

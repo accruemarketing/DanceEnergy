@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+.uploadifyContainer{
+    margin: 10px 0 0 10px;
+    width: 200px;
+}
+
+.uploadifyQueueItem{
+    background-color: #ededed;
+    border: 1px solid #bbbbbb;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 12px;    
+    margin: 10px 0 0 0;
+    padding: 6px 10px 6px 10px;
+    text-align: left;
+    width: 178px;
+}
+
+.uploadifyError{
+    background-color: #fde5dd !important;
+    border: 1px solid #fbcbbc !important;
+}
+
+.uploadifyQueueItem .cancel{
+    float: right;
+}
+
+.uploadifyQueue .completed{
+    background-color: #ededed;
+}
+
+.uploadifyProgress{
+    background-color: #666666;
+    margin: 10px 0 0 0;    
+    width: 100%;
+}
+
+.uploadifyProgressBar{
+    background-color: #000000;
+    height: 3px;
+    width: 1px;
+}

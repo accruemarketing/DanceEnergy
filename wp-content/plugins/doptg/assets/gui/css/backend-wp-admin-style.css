@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/*
+* Title                   : Thumbnail Gallery (WordPress Plugin)
+* Version                 : 2.4
+* File                    : backend-wp-admin-style.css
+* File Version            : 1.0
+* Created / Last Modified : 01 October 2013
+* Author                  : Dot on Paper
+* Copyright               : © 2012 Dot on Paper
+* Website                 : http://www.dotonpaper.net
+* Description             : Thumbnail Gallery Admin Stylesheet for Wp Admin.
+*/
+
+/******************************************************************************* Begin Menu Icon */
+
+#toplevel_page_doptg .wp-menu-image{
+    background: transparent url('../images/icon.png') no-repeat center center;
+}
+
+#toplevel_page_doptg:hover .wp-menu-image,
+#toplevel_page_doptg.wp-has-current-submenu .wp-menu-image,
+#toplevel_page_doptg.current .wp-menu-image{
+    background: transparent url('../images/icon-hover.png') no-repeat center center;
+}
+
+/******************************************************************************* End Menu Icon */

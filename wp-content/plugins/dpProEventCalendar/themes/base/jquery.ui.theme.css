@@ -1,0 +1,237 @@
+/*
+ * jQuery UI CSS Framework 1.8.14
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming/API
+ *
+ * To view and modify this theme, visit http://jqueryui.com/themeroller/
+ */
+
+
+/* Component containers
+----------------------------------*/
+.dp_pec_datepicker .ui-widget { font-family: Verdana,Arial,sans-serif/*{ffDefault}*/; font-size: 1.1em/*{fsDefault}*/; }
+.dp_pec_datepicker .ui-widget .ui-widget { font-size: 1em; }
+.dp_pec_datepicker .ui-widget input, .dp_pec_datepicker .ui-widget select, .dp_pec_datepicker .ui-widget textarea, .dp_pec_datepicker .ui-widget button { font-family: Verdana,Arial,sans-serif/*{ffDefault}*/; font-size: 1em; }
+.dp_pec_datepicker .ui-widget-content { border: 1px solid #aaaaaa/*{borderColorContent}*/; background: #ffffff/*{bgColorContent}*/ url(images/ui-bg_flat_75_ffffff_40x100.png)/*{bgImgUrlContent}*/ 50%/*{bgContentXPos}*/ 50%/*{bgContentYPos}*/ repeat-x/*{bgContentRepeat}*/; color: #222222/*{fcContent}*/; }
+.dp_pec_datepicker .ui-widget-content a { color: #222222/*{fcContent}*/; }
+.dp_pec_datepicker .ui-widget-header { border: 1px solid #aaaaaa/*{borderColorHeader}*/; background: #cccccc/*{bgColorHeader}*/ url(images/ui-bg_highlight-soft_75_cccccc_1x100.png)/*{bgImgUrlHeader}*/ 50%/*{bgHeaderXPos}*/ 50%/*{bgHeaderYPos}*/ repeat-x/*{bgHeaderRepeat}*/; color: #222222/*{fcHeader}*/; font-weight: bold; }
+.dp_pec_datepicker .ui-widget-header a { color: #222222/*{fcHeader}*/; }
+
+/* Interaction states
+----------------------------------*/
+.dp_pec_datepicker .ui-state-default, .dp_pec_datepicker .ui-widget-content .ui-state-default, .dp_pec_datepicker .ui-widget-header .ui-state-default { border: 1px solid #d3d3d3/*{borderColorDefault}*/; background: #e6e6e6/*{bgColorDefault}*/ url(images/ui-bg_glass_75_e6e6e6_1x400.png)/*{bgImgUrlDefault}*/ 50%/*{bgDefaultXPos}*/ 50%/*{bgDefaultYPos}*/ repeat-x/*{bgDefaultRepeat}*/; font-weight: normal/*{fwDefault}*/; color: #555555/*{fcDefault}*/; }
+.dp_pec_datepicker .ui-state-default a, .dp_pec_datepicker .ui-state-default a:link, .dp_pec_datepicker .ui-state-default a:visited { color: #555555/*{fcDefault}*/; text-decoration: none; }
+.dp_pec_datepicker .ui-state-hover, .dp_pec_datepicker .ui-widget-content .ui-state-hover, .dp_pec_datepicker .ui-widget-header .ui-state-hover, .dp_pec_datepicker .ui-state-focus, .dp_pec_datepicker .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { border: 1px solid #999999/*{borderColorHover}*/; background: #dadada/*{bgColorHover}*/ url(images/ui-bg_glass_75_dadada_1x400.png)/*{bgImgUrlHover}*/ 50%/*{bgHoverXPos}*/ 50%/*{bgHoverYPos}*/ repeat-x/*{bgHoverRepeat}*/; font-weight: normal/*{fwDefault}*/; color: #212121/*{fcHover}*/; }
+.dp_pec_datepicker .ui-state-hover a, .dp_pec_datepicker .ui-state-hover a:hover { color: #212121/*{fcHover}*/; text-decoration: none; }
+.dp_pec_datepicker .ui-state-active, .dp_pec_datepicker .ui-widget-content .ui-state-active, .dp_pec_datepicker .ui-widget-header .ui-state-active { border: 1px solid #aaaaaa/*{borderColorActive}*/; background: #ffffff/*{bgColorActive}*/ url(images/ui-bg_glass_65_ffffff_1x400.png)/*{bgImgUrlActive}*/ 50%/*{bgActiveXPos}*/ 50%/*{bgActiveYPos}*/ repeat-x/*{bgActiveRepeat}*/; font-weight: normal/*{fwDefault}*/; color: #212121/*{fcActive}*/; }
+.dp_pec_datepicker .ui-state-active a, .dp_pec_datepicker .ui-state-active a:link, .dp_pec_datepicker .ui-state-active a:visited { color: #212121/*{fcActive}*/; text-decoration: none; }
+.dp_pec_datepicker .ui-widget :active { outline: none; }
+
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.dp_pec_datepicker .ui-icon { width: 16px; height: 16px; background-image: url(images/ui-icons_222222_256x240.png)/*{iconsContent}*/; }
+.dp_pec_datepicker .ui-widget-content .ui-icon {background-image: url(images/ui-icons_222222_256x240.png)/*{iconsContent}*/; }
+.dp_pec_datepicker .ui-widget-header .ui-icon {background-image: url(images/ui-icons_222222_256x240.png)/*{iconsHeader}*/; }
+.dp_pec_datepicker .ui-state-default .ui-icon { background-image: url(images/ui-icons_888888_256x240.png)/*{iconsDefault}*/; }
+.dp_pec_datepicker .ui-state-hover .ui-icon, .dp_pec_datepicker .ui-state-focus .ui-icon {background-image: url(images/ui-icons_454545_256x240.png)/*{iconsHover}*/; }
+.dp_pec_datepicker .ui-state-active .ui-icon {background-image: url(images/ui-icons_454545_256x240.png)/*{iconsActive}*/; }
+.dp_pec_datepicker .ui-state-highlight .ui-icon {background-image: url(images/ui-icons_2e83ff_256x240.png)/*{iconsHighlight}*/; }
+.dp_pec_datepicker .ui-state-error .ui-icon, .dp_pec_datepicker .ui-state-error-text .ui-icon {background-image: url(images/ui-icons_cd0a0a_256x240.png)/*{iconsError}*/; }
+
+/* positioning */
+.dp_pec_datepicker .ui-icon-carat-1-n { background-position: 0 0; }
+.dp_pec_datepicker .ui-icon-carat-1-ne { background-position: -16px 0; }
+.dp_pec_datepicker .ui-icon-carat-1-e { background-position: -32px 0; }
+.dp_pec_datepicker .ui-icon-carat-1-se { background-position: -48px 0; }
+.dp_pec_datepicker .ui-icon-carat-1-s { background-position: -64px 0; }
+.dp_pec_datepicker .ui-icon-carat-1-sw { background-position: -80px 0; }
+.dp_pec_datepicker .ui-icon-carat-1-w { background-position: -96px 0; }
+.dp_pec_datepicker .ui-icon-carat-1-nw { background-position: -112px 0; }
+.dp_pec_datepicker .ui-icon-carat-2-n-s { background-position: -128px 0; }
+.dp_pec_datepicker .ui-icon-carat-2-e-w { background-position: -144px 0; }
+.dp_pec_datepicker .ui-icon-triangle-1-n { background-position: 0 -16px; }
+.dp_pec_datepicker .ui-icon-triangle-1-ne { background-position: -16px -16px; }
+.dp_pec_datepicker .ui-icon-triangle-1-e { background-position: -32px -16px; }
+.dp_pec_datepicker .ui-icon-triangle-1-se { background-position: -48px -16px; }
+.dp_pec_datepicker .ui-icon-triangle-1-s { background-position: -64px -16px; }
+.dp_pec_datepicker .ui-icon-triangle-1-sw { background-position: -80px -16px; }
+.dp_pec_datepicker .ui-icon-triangle-1-w { background-position: -96px -16px; }
+.dp_pec_datepicker .ui-icon-triangle-1-nw { background-position: -112px -16px; }
+.dp_pec_datepicker .ui-icon-triangle-2-n-s { background-position: -128px -16px; }
+.dp_pec_datepicker .ui-icon-triangle-2-e-w { background-position: -144px -16px; }
+.dp_pec_datepicker .ui-icon-arrow-1-n { background-position: 0 -32px; }
+.dp_pec_datepicker .ui-icon-arrow-1-ne { background-position: -16px -32px; }
+.dp_pec_datepicker .ui-icon-arrow-1-e { background-position: -32px -32px; }
+.dp_pec_datepicker .ui-icon-arrow-1-se { background-position: -48px -32px; }
+.dp_pec_datepicker .ui-icon-arrow-1-s { background-position: -64px -32px; }
+.dp_pec_datepicker .ui-icon-arrow-1-sw { background-position: -80px -32px; }
+.dp_pec_datepicker .ui-icon-arrow-1-w { background-position: -96px -32px; }
+.dp_pec_datepicker .ui-icon-arrow-1-nw { background-position: -112px -32px; }
+.dp_pec_datepicker .ui-icon-arrow-2-n-s { background-position: -128px -32px; }
+.dp_pec_datepicker .ui-icon-arrow-2-ne-sw { background-position: -144px -32px; }
+.dp_pec_datepicker .ui-icon-arrow-2-e-w { background-position: -160px -32px; }
+.dp_pec_datepicker .ui-icon-arrow-2-se-nw { background-position: -176px -32px; }
+.dp_pec_datepicker .ui-icon-arrowstop-1-n { background-position: -192px -32px; }
+.dp_pec_datepicker .ui-icon-arrowstop-1-e { background-position: -208px -32px; }
+.dp_pec_datepicker .ui-icon-arrowstop-1-s { background-position: -224px -32px; }
+.dp_pec_datepicker .ui-icon-arrowstop-1-w { background-position: -240px -32px; }
+.dp_pec_datepicker .ui-icon-arrowthick-1-n { background-position: 0 -48px; }
+.dp_pec_datepicker .ui-icon-arrowthick-1-ne { background-position: -16px -48px; }
+.dp_pec_datepicker .ui-icon-arrowthick-1-e { background-position: -32px -48px; }
+.dp_pec_datepicker .ui-icon-arrowthick-1-se { background-position: -48px -48px; }
+.dp_pec_datepicker .ui-icon-arrowthick-1-s { background-position: -64px -48px; }
+.dp_pec_datepicker .ui-icon-arrowthick-1-sw { background-position: -80px -48px; }
+.dp_pec_datepicker .ui-icon-arrowthick-1-w { background-position: -96px -48px; }
+.dp_pec_datepicker .ui-icon-arrowthick-1-nw { background-position: -112px -48px; }
+.dp_pec_datepicker .ui-icon-arrowthick-2-n-s { background-position: -128px -48px; }
+.dp_pec_datepicker .ui-icon-arrowthick-2-ne-sw { background-position: -144px -48px; }
+.dp_pec_datepicker .ui-icon-arrowthick-2-e-w { background-position: -160px -48px; }
+.dp_pec_datepicker .ui-icon-arrowthick-2-se-nw { background-position: -176px -48px; }
+.dp_pec_datepicker .ui-icon-arrowthickstop-1-n { background-position: -192px -48px; }
+.dp_pec_datepicker .ui-icon-arrowthickstop-1-e { background-position: -208px -48px; }
+.dp_pec_datepicker .ui-icon-arrowthickstop-1-s { background-position: -224px -48px; }
+.dp_pec_datepicker .ui-icon-arrowthickstop-1-w { background-position: -240px -48px; }
+.dp_pec_datepicker .ui-icon-arrowreturnthick-1-w { background-position: 0 -64px; }
+.dp_pec_datepicker .ui-icon-arrowreturnthick-1-n { background-position: -16px -64px; }
+.dp_pec_datepicker .ui-icon-arrowreturnthick-1-e { background-position: -32px -64px; }
+.dp_pec_datepicker .ui-icon-arrowreturnthick-1-s { background-position: -48px -64px; }
+.dp_pec_datepicker .ui-icon-arrowreturn-1-w { background-position: -64px -64px; }
+.dp_pec_datepicker .ui-icon-arrowreturn-1-n { background-position: -80px -64px; }
+.dp_pec_datepicker .ui-icon-arrowreturn-1-e { background-position: -96px -64px; }
+.dp_pec_datepicker .ui-icon-arrowreturn-1-s { background-position: -112px -64px; }
+.dp_pec_datepicker .ui-icon-arrowrefresh-1-w { background-position: -128px -64px; }
+.dp_pec_datepicker .ui-icon-arrowrefresh-1-n { background-position: -144px -64px; }
+.dp_pec_datepicker .ui-icon-arrowrefresh-1-e { background-position: -160px -64px; }
+.dp_pec_datepicker .ui-icon-arrowrefresh-1-s { background-position: -176px -64px; }
+.dp_pec_datepicker .ui-icon-arrow-4 { background-position: 0 -80px; }
+.dp_pec_datepicker .ui-icon-arrow-4-diag { background-position: -16px -80px; }
+.dp_pec_datepicker .ui-icon-extlink { background-position: -32px -80px; }
+.dp_pec_datepicker .ui-icon-newwin { background-position: -48px -80px; }
+.dp_pec_datepicker .ui-icon-refresh { background-position: -64px -80px; }
+.dp_pec_datepicker .ui-icon-shuffle { background-position: -80px -80px; }
+.dp_pec_datepicker .ui-icon-transfer-e-w { background-position: -96px -80px; }
+.dp_pec_datepicker .ui-icon-transferthick-e-w { background-position: -112px -80px; }
+.dp_pec_datepicker .ui-icon-folder-collapsed { background-position: 0 -96px; }
+.dp_pec_datepicker .ui-icon-folder-open { background-position: -16px -96px; }
+.dp_pec_datepicker .ui-icon-document { background-position: -32px -96px; }
+.dp_pec_datepicker .ui-icon-document-b { background-position: -48px -96px; }
+.dp_pec_datepicker .ui-icon-note { background-position: -64px -96px; }
+.dp_pec_datepicker .ui-icon-mail-closed { background-position: -80px -96px; }
+.dp_pec_datepicker .ui-icon-mail-open { background-position: -96px -96px; }
+.dp_pec_datepicker .ui-icon-suitcase { background-position: -112px -96px; }
+.dp_pec_datepicker .ui-icon-comment { background-position: -128px -96px; }
+.dp_pec_datepicker .ui-icon-person { background-position: -144px -96px; }
+.dp_pec_datepicker .ui-icon-print { background-position: -160px -96px; }
+.dp_pec_datepicker .ui-icon-trash { background-position: -176px -96px; }
+.dp_pec_datepicker .ui-icon-locked { background-position: -192px -96px; }
+.dp_pec_datepicker .ui-icon-unlocked { background-position: -208px -96px; }
+.dp_pec_datepicker .ui-icon-bookmark { background-position: -224px -96px; }
+.dp_pec_datepicker .ui-icon-tag { background-position: -240px -96px; }
+.dp_pec_datepicker .ui-icon-home { background-position: 0 -112px; }
+.dp_pec_datepicker .ui-icon-flag { background-position: -16px -112px; }
+.dp_pec_datepicker .ui-icon-calendar { background-position: -32px -112px; }
+.dp_pec_datepicker .ui-icon-cart { background-position: -48px -112px; }
+.dp_pec_datepicker .ui-icon-pencil { background-position: -64px -112px; }
+.dp_pec_datepicker .ui-icon-clock { background-position: -80px -112px; }
+.dp_pec_datepicker .ui-icon-disk { background-position: -96px -112px; }
+.dp_pec_datepicker .ui-icon-calculator { background-position: -112px -112px; }
+.dp_pec_datepicker .ui-icon-zoomin { background-position: -128px -112px; }
+.dp_pec_datepicker .ui-icon-zoomout { background-position: -144px -112px; }
+.dp_pec_datepicker .ui-icon-search { background-position: -160px -112px; }
+.dp_pec_datepicker .ui-icon-wrench { background-position: -176px -112px; }
+.dp_pec_datepicker .ui-icon-gear { background-position: -192px -112px; }
+.dp_pec_datepicker .ui-icon-heart { background-position: -208px -112px; }
+.dp_pec_datepicker .ui-icon-star { background-position: -224px -112px; }
+.dp_pec_datepicker .ui-icon-link { background-position: -240px -112px; }
+.dp_pec_datepicker .ui-icon-cancel { background-position: 0 -128px; }
+.dp_pec_datepicker .ui-icon-plus { background-position: -16px -128px; }
+.dp_pec_datepicker .ui-icon-plusthick { background-position: -32px -128px; }
+.dp_pec_datepicker .ui-icon-minus { background-position: -48px -128px; }
+.dp_pec_datepicker .ui-icon-minusthick { background-position: -64px -128px; }
+.dp_pec_datepicker .ui-icon-close { background-position: -80px -128px; }
+.dp_pec_datepicker .ui-icon-closethick { background-position: -96px -128px; }
+.dp_pec_datepicker .ui-icon-key { background-position: -112px -128px; }
+.dp_pec_datepicker .ui-icon-lightbulb { background-position: -128px -128px; }
+.dp_pec_datepicker .ui-icon-scissors { background-position: -144px -128px; }
+.dp_pec_datepicker .ui-icon-clipboard { background-position: -160px -128px; }
+.dp_pec_datepicker .ui-icon-copy { background-position: -176px -128px; }
+.dp_pec_datepicker .ui-icon-contact { background-position: -192px -128px; }
+.dp_pec_datepicker .ui-icon-image { background-position: -208px -128px; }
+.dp_pec_datepicker .ui-icon-video { background-position: -224px -128px; }
+.dp_pec_datepicker .ui-icon-script { background-position: -240px -128px; }
+.dp_pec_datepicker .ui-icon-alert { background-position: 0 -144px; }
+.dp_pec_datepicker .ui-icon-info { background-position: -16px -144px; }
+.dp_pec_datepicker .ui-icon-notice { background-position: -32px -144px; }
+.dp_pec_datepicker .ui-icon-help { background-position: -48px -144px; }
+.dp_pec_datepicker .ui-icon-check { background-position: -64px -144px; }
+.dp_pec_datepicker .ui-icon-bullet { background-position: -80px -144px; }
+.dp_pec_datepicker .ui-icon-radio-off { background-position: -96px -144px; }
+.dp_pec_datepicker .ui-icon-radio-on { background-position: -112px -144px; }
+.dp_pec_datepicker .ui-icon-pin-w { background-position: -128px -144px; }
+.dp_pec_datepicker .ui-icon-pin-s { background-position: -144px -144px; }
+.dp_pec_datepicker .ui-icon-play { background-position: 0 -160px; }
+.dp_pec_datepicker .ui-icon-pause { background-position: -16px -160px; }
+.dp_pec_datepicker .ui-icon-seek-next { background-position: -32px -160px; }
+.dp_pec_datepicker .ui-icon-seek-prev { background-position: -48px -160px; }
+.dp_pec_datepicker .ui-icon-seek-end { background-position: -64px -160px; }
+.dp_pec_datepicker .ui-icon-seek-start { background-position: -80px -160px; }
+/* ui-icon-seek-first is deprecated, use ui-icon-seek-start instead */
+.dp_pec_datepicker .ui-icon-seek-first { background-position: -80px -160px; }
+.dp_pec_datepicker .ui-icon-stop { background-position: -96px -160px; }
+.dp_pec_datepicker .ui-icon-eject { background-position: -112px -160px; }
+.dp_pec_datepicker .ui-icon-volume-off { background-position: -128px -160px; }
+.dp_pec_datepicker .ui-icon-volume-on { background-position: -144px -160px; }
+.dp_pec_datepicker .ui-icon-power { background-position: 0 -176px; }
+.dp_pec_datepicker .ui-icon-signal-diag { background-position: -16px -176px; }
+.dp_pec_datepicker .ui-icon-signal { background-position: -32px -176px; }
+.dp_pec_datepicker .ui-icon-battery-0 { background-position: -48px -176px; }
+.dp_pec_datepicker .ui-icon-battery-1 { background-position: -64px -176px; }
+.dp_pec_datepicker .ui-icon-battery-2 { background-position: -80px -176px; }
+.dp_pec_datepicker .ui-icon-battery-3 { background-position: -96px -176px; }
+.dp_pec_datepicker .ui-icon-circle-plus { background-position: 0 -192px; }
+.dp_pec_datepicker .ui-icon-circle-minus { background-position: -16px -192px; }
+.dp_pec_datepicker .ui-icon-circle-close { background-position: -32px -192px; }
+.dp_pec_datepicker .ui-icon-circle-triangle-e { background-position: -48px -192px; }
+.dp_pec_datepicker .ui-icon-circle-triangle-s { background-position: -64px -192px; }
+.dp_pec_datepicker .ui-icon-circle-triangle-w { background-position: -80px -192px; }
+.dp_pec_datepicker .ui-icon-circle-triangle-n { background-position: -96px -192px; }
+.dp_pec_datepicker .ui-icon-circle-arrow-e { background-position: -112px -192px; }
+.dp_pec_datepicker .ui-icon-circle-arrow-s { background-position: -128px -192px; }
+.dp_pec_datepicker .ui-icon-circle-arrow-w { background-position: -144px -192px; }
+.dp_pec_datepicker .ui-icon-circle-arrow-n { background-position: -160px -192px; }
+.dp_pec_datepicker .ui-icon-circle-zoomin { background-position: -176px -192px; }
+.dp_pec_datepicker .ui-icon-circle-zoomout { background-position: -192px -192px; }
+.dp_pec_datepicker .ui-icon-circle-check { background-position: -208px -192px; }
+.dp_pec_datepicker .ui-icon-circlesmall-plus { background-position: 0 -208px; }
+.dp_pec_datepicker .ui-icon-circlesmall-minus { background-position: -16px -208px; }
+.dp_pec_datepicker .ui-icon-circlesmall-close { background-position: -32px -208px; }
+.dp_pec_datepicker .ui-icon-squaresmall-plus { background-position: -48px -208px; }
+.dp_pec_datepicker .ui-icon-squaresmall-minus { background-position: -64px -208px; }
+.dp_pec_datepicker .ui-icon-squaresmall-close { background-position: -80px -208px; }
+.dp_pec_datepicker .ui-icon-grip-dotted-vertical { background-position: 0 -224px; }
+.dp_pec_datepicker .ui-icon-grip-dotted-horizontal { background-position: -16px -224px; }
+.dp_pec_datepicker .ui-icon-grip-solid-vertical { background-position: -32px -224px; }
+.dp_pec_datepicker .ui-icon-grip-solid-horizontal { background-position: -48px -224px; }
+.dp_pec_datepicker .ui-icon-gripsmall-diagonal-se { background-position: -64px -224px; }
+.dp_pec_datepicker .ui-icon-grip-diagonal-se { background-position: -80px -224px; }
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Corner radius */
+.dp_pec_datepicker .ui-corner-all, .dp_pec_datepicker .ui-corner-top, .dp_pec_datepicker .ui-corner-left, .dp_pec_datepicker .ui-corner-tl { -moz-border-radius-topleft: 4px/*{cornerRadius}*/; -webkit-border-top-left-radius: 4px/*{cornerRadius}*/; -khtml-border-top-left-radius: 4px/*{cornerRadius}*/; border-top-left-radius: 4px/*{cornerRadius}*/; }
+.dp_pec_datepicker .ui-corner-all, .dp_pec_datepicker .ui-corner-top, .dp_pec_datepicker .ui-corner-right, .dp_pec_datepicker .ui-corner-tr { -moz-border-radius-topright: 4px/*{cornerRadius}*/; -webkit-border-top-right-radius: 4px/*{cornerRadius}*/; -khtml-border-top-right-radius: 4px/*{cornerRadius}*/; border-top-right-radius: 4px/*{cornerRadius}*/; }
+.dp_pec_datepicker .ui-corner-all, .dp_pec_datepicker .ui-corner-bottom, .dp_pec_datepicker .ui-corner-left, .dp_pec_datepicker .ui-corner-bl { -moz-border-radius-bottomleft: 4px/*{cornerRadius}*/; -webkit-border-bottom-left-radius: 4px/*{cornerRadius}*/; -khtml-border-bottom-left-radius: 4px/*{cornerRadius}*/; border-bottom-left-radius: 4px/*{cornerRadius}*/; }
+.dp_pec_datepicker .ui-corner-all, .dp_pec_datepicker .ui-corner-bottom, .dp_pec_datepicker .ui-corner-right, .dp_pec_datepicker .ui-corner-br { -moz-border-radius-bottomright: 4px/*{cornerRadius}*/; -webkit-border-bottom-right-radius: 4px/*{cornerRadius}*/; -khtml-border-bottom-right-radius: 4px/*{cornerRadius}*/; border-bottom-right-radius: 4px/*{cornerRadius}*/; }
+
+/* Overlays */
+.dp_pec_datepicker .ui-widget-overlay { background: #aaaaaa/*{bgColorOverlay}*/ url(images/ui-bg_flat_0_aaaaaa_40x100.png)/*{bgImgUrlOverlay}*/ 50%/*{bgOverlayXPos}*/ 50%/*{bgOverlayYPos}*/ repeat-x/*{bgOverlayRepeat}*/; opacity: .3;filter:Alpha(Opacity=30)/*{opacityOverlay}*/; }
+.dp_pec_datepicker .ui-widget-shadow { margin: -8px/*{offsetTopShadow}*/ 0 0 -8px/*{offsetLeftShadow}*/; padding: 8px/*{thicknessShadow}*/; background: #aaaaaa/*{bgColorShadow}*/ url(images/ui-bg_flat_0_aaaaaa_40x100.png)/*{bgImgUrlShadow}*/ 50%/*{bgShadowXPos}*/ 50%/*{bgShadowYPos}*/ repeat-x/*{bgShadowRepeat}*/; opacity: .3;filter:Alpha(Opacity=30)/*{opacityShadow}*/; -moz-border-radius: 8px/*{cornerRadiusShadow}*/; -khtml-border-radius: 8px/*{cornerRadiusShadow}*/; -webkit-border-radius: 8px/*{cornerRadiusShadow}*/; border-radius: 8px/*{cornerRadiusShadow}*/; }

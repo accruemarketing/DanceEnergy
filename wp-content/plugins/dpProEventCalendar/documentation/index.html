@@ -1,0 +1,739 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Wordpress Pro Event Calendar</title>
+	
+	<meta name="description" content="TEST">
+	<meta name="author" content="Diego Pereyra">
+	<meta name="copyright" content="Diego Pereyra">
+	<meta name="generator" content="Documenter v1.6 http://rxa.li/documenter">
+	<meta name="date" content="2012-01-28T00:00:00+01:00">
+	
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/documenter_style.css" media="all">
+	
+	
+	<script src="js/jquery.1.6.4.js"></script>
+	
+	<script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	
+    <script type="text/javascript" src="js/shCore.js"></script>
+    <script src="js/shBrushAS3.js"></script>
+	<script src="js/shBrushCss.js"></script>
+	<script src="js/shBrushXml.js"></script>
+	<script src="js/shBrushJScript.js"></script>
+	<script src="js/shBrushPhp.js"></script>
+	<script src="js/shBrushPlain.js"></script>
+
+	<link href="css/shCore.css" rel="stylesheet" type="text/css" />
+	<link href="css/shThemeDefault.css" rel="stylesheet" type="text/css" />
+    
+	<script>document.createElement('section');var duration=500,easing='swing';</script>
+	<script src="js/script.js"></script>
+	
+	<style>
+		html{background-color:#F3F3F3;color:#585858;background-image:url(assets/images/image_15.png);background-repeat:repeat;background-attachment:fixed;}
+
+		::-moz-selection{background:#111111;color:#F1F1F1;}
+
+		::selection{background:#111111;color:#F1F1F1;}
+
+		a{color:#111111;}
+
+		table td { padding: 10px; }
+
+		hr{border-top:1px solid #E5E5E5;border-bottom:1px solid #F9F9F9;}
+
+		#documenter_sidebar, #documenter_sidebar ol a{background-color:#333333;color:#F1F1F1;background-image:url(assets/images/image_17.gif);background-repeat:repeat-y;}
+
+		#documenter_sidebar ol a{-webkit-text-shadow:1px 1px 0px #444444;-moz-text-shadow:1px 1px 0px #444444;text-shadow:1px 1px 0px #444444;}
+
+		#documenter_sidebar ol{border-top:1px solid #222222;}
+
+		#documenter_sidebar ol a{border-top:1px solid #444444;border-bottom:1px solid #222222;color:#F1F1F1;}
+
+		#documenter_sidebar ol a:hover{background:#111111;color:#F1F1F1;border-top:1px solid #111111;}
+
+		#documenter_sidebar ol a.current{background:#111111;color:#F1F1F1;border-top:1px solid #111111;}
+
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+
+	</style>
+	
+</head>
+<body>
+	<div id="documenter_sidebar">
+		<ol id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+			<li><a href="#introduction">Introduction</a></li>
+            <li><a href="#features">Features</a></li>
+			<li><a href="#included_files">Included Folders</a></li>
+            <li><a href="#usage">Usage</a></li>
+            <li><a href="#calendars">Calendars</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#special_dates">Special Dates</a></li>
+            <li><a href="#upcoming">Upcoming Events Shortcode</a></li>
+            <li><a href="#widget">Calendar as a Widget</a></li>
+            <li><a href="#widget_upcoming">Upcoming Events Widget</a></li>
+            <li><a href="#credits">Credits</a></li>
+            <li><a href="#changelog">Changelog</a></li>
+		</ol>
+		<div id="documenter_copyright">Copyright Diego Pereyra 2012<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v1.6</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover"><h1>Wordpress Pro Event Calendar</h1><h2>Premium Plugin</h2><hr><ul><li>Created: 08/06/2012</li><li>latest Update: 08/06/2012</li><li>By: Diego Pereyra</li><li><a href=""></a></li><li>Email: <a href="mailto:&#105;&#110;&#102;&#111;&#64;&#100;&#112;&#101;&#114;&#101;&#121;&#114;&#97;&#46;&#99;&#111;&#109;">&#105;&#110;&#102;&#111;&#64;&#100;&#112;&#101;&#114;&#101;&#121;&#114;&#97;&#46;&#99;&#111;&#109;</a></li></ul><p>The Pro Event Calendar plugin adds a professional and sleek calendar to your posts or pages. 100% Responsive, also you can use it inside a widget.</p></section>
+    <section id="introduction">
+    	<h3>Introduction</h3>
+        <p>Thank you for purchasing my item. If you have any questions that are beyond the scope of this help file,
+please feel free to email via my user page contact form <a href="http://codecanyon.net/user/DPereyra">here</a>. Thanks so much!</p>
+    </section>
+    <section id="features">
+        <h3>Features</h3><hr class="notop">
+        <p>
+        <ul>
+        	<ul>
+            <li>
+            Elegant & Sleek Design
+            </li>
+            <li>
+            Responsive Layout
+            </li>
+            <li>
+            Easy to manage Events
+            </li>
+            <li>
+            Special Dates
+            </li>
+            <li>
+            Draggable / Touchable
+            </li>
+            <li>
+            Date range support
+            </li>
+            <li>
+            Translate it easily.
+            </li>
+            <li>
+            Cross Browser Support
+            </li>
+            <li>
+            Simple to Customize
+            </li>
+            <li>
+            Well Documented
+            </li>
+            </ul>
+		</ul>
+        </p>
+	</section>
+	<section id="included_files">
+		<h3>Included Folders</h3><hr class="notop">
+		<p>The following files and folders are included in the package:
+        <ul>
+            <li>Documentation Folder contains this help file.</li>
+            <li>dpProEventCalendar Folder contains the Wordpress plugin.</li>
+		</ul>
+		</p>
+	</section>
+    <section id="usage">
+        <h3>Usage</h3><hr class="notop">
+		<ul>
+            <li>1 - Copy the "dpProEventCalendar" folder into your wordpress "wp-content/plugins/" folder using
+your favorite FTP program.</li>
+            <li>2 - Go to your WordPress "Manage Plugins" page, find the "DP Pro Event Calendar" in your plugins list and click on activate.</li>
+        </ul>
+        <p>
+        	<strong>That's it for the installation!</strong><br><br>
+            Once the plugin has been activated you will notice a new menu on the side called "Event Calendar" enabling you to customize it.
+            <br><br>
+            When you have finished creating and customizing your events, use this shortcode [dpProEventCalendar id=x]
+into any post or page and the calendar will be integrated. Note that the x is the ID number of the
+calendar.
+        </p>
+	</section>
+    <section id="calendars">
+        <h3>Calendars</h3><hr class="notop">
+        
+        <p>Create the calendars and manage the special dates associated.</p>
+        <img src="images/calendar_list.jpg" alt="Calendars" />
+	</section>
+    <section id="events">
+        <h3>Events</h3><hr class="notop">
+        
+        <p>Manage all the events of the calendar, also you can filter and make bulk actions.</p>
+        <img src="images/event_list.jpg" alt="Events" />
+	</section>
+    <section id="special_dates">
+        <h3>Special Dates</h3><hr class="notop">
+        
+        <p>Add special dates to use in the calendars. Such as holidays, company events, personal events, etc...</p>
+        <img src="images/sp.jpg" alt="Special Dates" />
+	</section>
+    <section id="upcoming">
+        <h3>Upcoming Events Shortcode</h3><hr class="notop">
+        
+        <p>
+        	To add the upcoming list in any page/posts use the shortcode <strong>[dpProEventCalendar id=xx type="upcoming" limit=xx category=CAT_ID]</strong><br><br>
+            
+            Where <strong>id=xx</strong> is the calendar ID. And <strong>limit=xx</strong> is the number of upcoming events that you want to retrieve. <br>The category parameter filters the events by the category ID, this field is optional.
+        </p>
+	</section>
+    <section id="widget">
+        <h3>Calendar as a Widget</h3><hr class="notop">
+        
+        <p>
+        	Drag & Drop the Widget to the area of your theme where you want this should be placed.
+            <br><br>
+            <img src="images/widget.jpg" alt="Widget" />
+        </p>
+	</section>
+    <section id="widget_upcoming">
+        <h3>Upcoming Events Widget</h3><hr class="notop">
+        
+        <p>
+        	Drag & Drop the Widget to the area of your theme where you want this should be placed.
+            <br><br>
+            <img src="images/widget_upcoming.jpg" alt="Widget" />
+        </p>
+	</section>
+    <section id="credits">
+        <h3>Credits</h3><hr class="notop">
+        <p>
+		<ul>
+            <li><strong>jQuery</strong> - <a href="http://www.jquery.com/">http://www.jquery.com/</a></li>
+            <li><strong>Isotope </strong> - <a href="http://isotope.metafizzy.co/">http://isotope.metafizzy.co/</a></li>
+        </ul>
+        </p>
+	</section>
+    <section id="changelog">
+        <h3>Changelog</h3><hr class="notop">
+        
+        <h4>Version 2.2.5</h4>
+        <ul>
+            <li>Added Event data in pages automatically</li>
+            <li>Added Booking button in Event pages</li>
+            <li>Added iCal button in accordion layout.</li>
+        </ul>
+        
+        <h4>Version 2.2.4</h4>
+        <ul>
+            <li>Added option to select a category when importing a iCal (ics) file</li>
+            <li>Added option to enable booking for events (beta)</li>
+        </ul>
+        
+        <h4>Version 2.2.3</h4>
+        <ul>
+            <li>Added option to import iCal files (ics)</li>
+            <li>Fixed issue with monthly recurring events</li>
+        </ul>
+        
+        <h4>Version 2.2.2</h4>
+        <ul>
+            <li>Added more options for monthly events</li>
+        </ul>
+        
+        <h4>Version 2.2.1</h4>
+        <ul>
+        	<li>Added Cache option</li>
+            <li>Added option to assign an event to multiple calendars</li>
+            <li>Improved CSS in Add Event form inside the monthly layout</li>
+        </ul>
+        
+        <h4>Version 2.2</h4>
+        <ul>
+        	<li>Added RTL Support</li>
+            <li>Added Full Images in events instead of thumbnails</li>
+            <li>Added button for logged in users to remove their events in the frontend</li>
+        </ul>
+        
+        <h4>Version 2.1.9</h4>
+        <ul>
+        	<li>Added option to display the event author</li>
+            <li>Added more options for weekly events</li>
+        </ul>
+        
+        <h4>Version 2.1.8</h4>
+        <ul>
+        	<li>Added option to customize the frontend form fields</li>
+            <li>Added option to allow logged in users to edit their own events</li>
+        </ul>
+        
+        <h4>Version 2.1.7</h4>
+        <ul>
+        	<li>Added option to hide old dates</li>
+            <li>Added option to limit hours in daily view</li>
+            <li>Added Phone field for events</li>
+            <li>Fixed issue with AM/PM in the "Add event" frontend form</li>
+        </ul>
+        
+        <h4>Version 2.1.6</h4>
+        <ul>
+        	<li>Improved support for latest version of Article Social Share</li>
+            <li>Added possibility to display events from a specific category in the calendar view</li>
+        </ul>
+        
+        <h4>Version 2.1.4</h4>
+        <ul>
+        	<li>Added more options for daily events</li>
+            <li>Fixed issue adding new calendars</li>
+        </ul>
+        
+        <h4>Version 2.1.3</h4>
+        <ul>
+        	<li>Added category list to filter events</li>
+            <li>Added possibility to add events for non-logged in users</li>
+            <li>Fixed issue with Social Share</li>
+        </ul>
+        <h4>Version 2.1.1</h4>
+        <ul>
+        	<li>Added option to allow logged-in users rate events.</li>
+            <li>Added Google Map upcoming events shortcode and widget.</li>
+            <li>Added support for <a href="http://codecanyon.net/item/wordpress-article-social-share/6247263">Wp Article Social Share</a> plugin</li>
+        </ul>
+        
+        <h4>Version 2.1</h4>
+        <ul>
+        	<li>Added category dropdown in "add event" frontend form.</li>
+            <li>Added button to subscribe via Mailchimp to a calendar.</li>
+        </ul>
+        
+        <h4>Version 2.0.9</h4>
+        <ul>
+        	<li>Added option to add an image in new event form on the frontend</li>
+            <li>Added search field in accordion layout</li>
+            <li>Added option to auto-publish all events sent by users on the frontend.</li>
+        </ul>
+        
+        <h4>Version 2.0.8</h4>
+        <ul>
+        	<li>Fixed issue in upcoming events widget using "Accordion" layout</li>
+        </ul>
+        
+        <h4>Version 2.0.7</h4>
+        <ul>
+        	<li>Added Accordion layout to upcoming events list</li>
+            <li>Added option to receive an email when a user submits a new event</li>
+        </ul>
+        
+        <h4>Version 2.0.6</h4>
+        <ul>
+        	<li>Fixed minor layout issues</li>
+            <li>Added category dropdown in calendar view</li>
+        </ul>
+        
+        <h4>Version 2.0.5</h4>
+        <ul>
+        	<li>Added shortcodes for event page</li>
+            <li>Improved events search</li>
+            <li>Improved list events by author shortcode</li>
+        </ul>
+        
+        <h4>Version 2.0.4</h4>
+        <ul>
+        	<li>Added Today's events shortcode and widget</li>
+            <li>Added option to include rating in events</li>
+            <li>Fixed some conflicts with datepicker CSS</li>
+        </ul>
+        
+        <h4>Version 2.0.3</h4>
+        <ul>
+        	<li>Improved some CSS styles</li>
+            <li>Added option to link events with post type page</li>
+            <li>Added featured images in events lists and preview</li>
+        </ul>
+        
+        <h4>Version 2.0.2</h4>
+        <ul>
+        	<li>Added standalone form to add new events in the frontend</li>
+        </ul>
+
+        <h4>Version 2.0.1</h4>
+        <ul>
+        	<li>Added new layout and widget "Accordion List"</li>
+            <li>Fixed issues displaying some events in the upcoming events widget</li>
+            <li>Added Custom Shortcodes generator section</li>
+        </ul>
+        
+        <h4>Version 2.0</h4>
+        <ul>
+        	<li>Improved responsiveness with preview tooltips</li>
+        </ul>
+        
+        <h4>Version 1.9.9</h4>
+        <ul>
+        	<li>Fixed issue with "view all events" button in IE 8.</li>
+            <li>Updated placeholder.js plugin</li>
+        </ul>
+        
+        <h4>Version 1.9.8</h4>
+        <ul>
+        	<li>Fixed issue including the JS/CSS files when the shortcode is not used.</li>
+        </ul>
+        
+        <h4>Version 1.9.7</h4>
+        <ul>
+        	<li>Fixed issues with yearly events in upcoming events widget</li>
+        </ul>
+        
+        <h4>Version 1.9.6</h4>
+        <ul>
+        	<li>Fixed issues creating calendars in some servers</li>
+        </ul>
+        
+        <h4>Version 1.9.5</h4>
+        <ul>
+        	<li>Added "Monthly Events List" default view option</li>
+        </ul>
+        
+        <h4>Version 1.9.4</h4>
+        <ul>
+        	<li>Fixed issue with jQuery 1.10.2.</li>
+            <li>Fixed issue with other custom post types</li>
+        </ul>
+        
+        <h4>Version 1.9.3</h4>
+        <ul>
+        	<li>Fixed issue with sorting in upcoming events widget.</li>
+        </ul>
+        
+        <h4>Version 1.9.2</h4>
+        <ul>
+        	<li>Fixed issue with events preview when the position of the body is relative</li>
+            <li>Added End Date in "View all events" mode.</li>
+            <li>Added Date sortable column in events list.</li>
+        </ul>
+        <h4>Version 1.9.1</h4>
+        <ul>
+        	<li>Fixed issue with yearly/monthly events in upcoming events widget.</li>
+        </ul>
+        <h4>Version 1.9</h4>
+        <ul>
+        	<li>Fixed issue with displaying daily events in upcoming events widget</li>
+        </ul>
+        <h4>Version 1.8.9</h4>
+        <ul>
+        	<li>Fixed issue with colorpicker in WP 3.6</li>
+        </ul>
+        <h4>Version 1.8.8</h4>
+        <ul>
+        	<li>Fixed issue with speed load in some servers</li>
+            <li>Fixed issue with tooltip in WP 3.6</li>
+        </ul>
+        <h4>Version 1.8.7</h4>
+        <ul>
+        	<li>Fixed issue with upcoming events widget in WP multisite.</li>
+        </ul>
+        <h4>Version 1.8.6</h4>
+        <ul>
+        	<li>Fixed minor issues in wp-admin and upcoming events widget.</li>
+        </ul>
+        <h4>Version 1.8.4</h4>
+        <ul>
+        	<li>Added option to select specific event category in upcoming widget</li>
+            <li>Fixed issue with frontend event form</li>
+        </ul>
+        <h4>Version 1.8.3</h4>
+        <ul>
+        	<li>Fixed minor issues in upcoming events widget</li>
+            <li>Fixed issue with datepicker in events</li>
+        </ul>
+        <h4>Version 1.8.2</h4>
+        <ul>
+        	<li>Fixed minor issues in last update</li>
+        </ul>
+        <h4>Version 1.8.1</h4>
+        <ul>
+        	<li>Added option to let users submit an event in the frontend.</li>
+            <li>Fixed issue in "View all events" button</li>
+        </ul>
+        <h4>Version 1.8</h4>
+        <ul>
+        	<li>Added Custom CSS option</li>
+            <li>Added Categories for events</li>
+            <li>Added Duplicate/clone events option</li>
+            <li>Added columns in events list (wp-admin)</li>
+            <li>Fixed issue in "View all events" button</li>
+        </ul>
+        <h4>Version 1.7.9</h4>
+        <ul>
+        	<li>Added translation fields for "Monthly" and "Daily" Buttons</li>
+            <li>Added Show/Hide Monthly and Daily buttons option</li>
+        </ul>
+        
+        <h4>Version 1.7.8</h4>
+        <ul>
+        	<li>Fixed issue displaying notes in iCal feed</li>
+            <li>Fixed issue in "All events in the month" list</li>
+        </ul>
+        
+        <h4>Version 1.7.7</h4>
+        <ul>
+        	<li>Fixed issue in wp-admin with last update</li>
+        </ul>
+        
+        <h4>Version 1.7.6</h4>
+        <ul>
+        	<li>Fixed Timezone issues with iCal feed</li>
+        	<li>Added "Daily" view</li>
+            <li>Added feature to see all events in a month</li>
+            <li>Improved UI</li>
+        </ul>
+        
+        <h4>Version 1.7.5</h4>
+        <ul>
+        	<li>Fixed issue in WP multisite installations</li>
+        </ul>
+        
+        <h4>Version 1.7.4</h4>
+        <ul>
+        	<li>Fixed issue with event counter in calendar page</li>
+        </ul>
+        
+        <h4>Version 1.7.3</h4>
+        <ul>
+        	<li>Fixed issue displaying events in trash</li>
+            <li>Fixed issue filtering events by calendar</li>
+            <li>Fixed warning errors in events list page</li>
+        </ul>
+        
+        <h4>Version 1.7.2</h4>
+        <ul>
+        	<li>Added post type for events, so the events now can be displayed also as posts</li>
+        </ul>
+        
+        <h4>Version 1.7.1</h4>
+        <ul>
+        	<li>Fixed issue removing "preselected date" in calendars</li>
+        </ul>
+        
+        <h4>Version 1.7</h4>
+        <ul>
+        	<li>Added iCal feed button in calendar</li>
+            <li>Added Description, location and URL to iCal</li>
+            <li>Fixed issues with iCal feed</li>
+        </ul>
+        
+        <h4>Version 1.6.9</h4>
+        <ul>
+        	<li>Added option to allow plugin access to different user roles</li>
+        </ul>
+        
+        <h4>Version 1.6.8</h4>
+        <ul>
+        	<li>Fixed an issue in the update notifier</li>
+        </ul>
+        
+        <h4>Version 1.6.7</h4>
+        <ul>
+        	<li>Fixed an issue in search results</li>
+        </ul>
+        
+        <h4>Version 1.6.6</h4>
+        <ul>
+        	<li>Fixed an issue in upcoming events widget</li>
+        </ul>
+        
+        <h4>Version 1.6.5</h4>
+        <ul>
+        	<li>Fixed an issue with daily frecuency in events</li>
+        </ul>
+        <h4>Version 1.6.4</h4>
+        <ul>
+        	<li>Added Hide Time option in events</li>
+            <li>Added Location option in events</li>
+        </ul>
+        <h4>Version 1.6.3</h4>
+        <ul>
+        	<li>Added RSS feed export option</li>
+        </ul>
+        
+        <h4>Version 1.6.2</h4>
+        <ul>
+        	<li>Added shortcode support in events description</li>
+        </ul>
+        
+        <h4>Version 1.6.1</h4>
+        <ul>
+        	<li>Added iCal feed export option.</li>
+        </ul>
+        
+        <h4>Version 1.6</h4>
+        <ul>
+        	<li>Added plugin update notification.</li>
+        </ul>
+        
+        <h4>Version 1.5.3</h4>
+        <ul>
+        	<li>Fixed an issue with timezones.</li>
+        </ul>
+        
+        <h4>Version 1.5.2</h4>
+        <ul>
+        	<li>Fixed an issue with compatibility issues in jquery.</li>
+        </ul>
+        
+        <h4>Version 1.5.1</h4>
+        <ul>
+        	<li>Fixed an issue with jQuery 1.9.</li>
+        </ul>
+        
+        <h4>Version 1.5</h4>
+        <ul>
+        	<li>Fixed an issue with the upcoming events widget and recurring events.</li>
+        </ul>
+        
+        <h4>Version 1.4.9</h4>
+        <ul>
+        	<li>Fixed an issue with paragraphs in events descriptions.</li>
+        </ul>
+        
+        <h4>Version 1.4.8</h4>
+        <ul>
+        	<li>Fixed an issue in preview of events.</li>
+        </ul>
+        
+        <h4>Version 1.4.7</h4>
+        <ul>
+        	<li>Fixed an issue scrolling in mobile devices</li>
+        </ul>
+        
+        <h4>Version 1.4.6</h4>
+        <ul>
+        	<li>Fixed a minor issue in widgets titles.</li>
+        </ul>
+        
+        <h4>Version 1.4.5</h4>
+        <ul>
+        	<li>Fixed an issue with last update</li>
+        </ul>
+        
+        <h4>Version 1.4.4</h4>
+        <ul>
+        	<li>Added End Time feature</li>
+        </ul>
+        <h4>Version 1.4.3</h4>
+        <ul>
+        	<li>Improved Date numbers style</li>
+        	<li>Added Option to display a list of events in a day on mouse over</li>
+            <li>Improved Admin UI</li>
+        </ul>
+        <h4>Version 1.4.2</h4>
+        <ul>
+        	<li>Fixed an issue with MySQL timezone.</li>
+        </ul>
+        <h4>Version 1.4.1</h4>
+        <ul>
+        	<li>Fixed an issue editing events.</li>
+        </ul>
+        <h4>Version 1.4</h4>
+        <ul>
+        	<li>Fixed compatibility issues.</li>
+        </ul>
+        <h4>Version 1.3.9</h4>
+        <ul>
+        	<li>Added TinyMCE editor for events description.</li>
+        </ul>
+        <h4>Version 1.3.8</h4>
+        <ul>
+        	<li>Fixed responsiveness issues.</li>
+            <li>Fixed dates width issue.</li>
+        </ul>
+        <h4>Version 1.3.7</h4>
+        <ul>
+        	<li>Added upcoming events from shortcode.</li>
+            <li>Added option to use a "X" instead of a count of events on dates.</li>
+        </ul>
+        <h4>Version 1.3.5</h4>
+        <ul>
+        	<li>Fixed a width issue with widgets.</li>
+        </ul>
+        <h4>Version 1.3.4</h4>
+        <ul>
+        	<li>Fixed an issue with the Google maps.</li>
+            <li>Fixed an issue with the Upcoming events widget.</li>
+            <li>Fixed an issue adding special dates.</li>
+        </ul>
+        <h4>Version 1.3.3</h4>
+        <ul>
+        	<li>Added Google Maps support.</li>
+        </ul>
+        <h4>Version 1.3.2</h4>
+        <ul>
+        	<li>Fixed events order.</li>
+        </ul>
+        <h4>Version 1.3.1</h4>
+        <ul>
+        	<li>Added dark skin theme.</li>
+        </ul>
+        <h4>Version 1.3</h4>
+        <ul>
+        	<li>Fixed issues with Hebrew characters.</li>
+        </ul>
+        <h4>Version 1.2.9</h4>
+        <ul>
+        	<li>Fixed a minor issue with Firefox.</li>
+        </ul>
+        <h4>Version 1.2.8</h4>
+        <ul>
+        	<li>Added multi-site support.</li>
+        </ul>
+        <h4>Version 1.2.7</h4>
+        <ul>
+        	<li>Fixed minor display issues.</li>
+        </ul>
+        <h4>Version 1.2.6</h4>
+        <ul>
+        	<li>Fixed an issue with search.</li>
+        </ul>
+        
+        <h4>Version 1.2.5</h4>
+        <ul>
+        	<li>Added Upcoming Events Widget.</li>
+            <li>Fixed minor issues.</li>
+        </ul>
+        
+        <h4>Version 1.2.3</h4>
+        <ul>
+        	<li>Added Current Date Color.</li>
+        </ul>
+        
+        <h4>Version 1.2.2</h4>
+        <ul>
+        	<li>Fixed a weekly frecuency issue.</li>
+        </ul>
+        
+        <h4>Version 1.2.1</h4>
+        <ul>
+        	<li>Fixed minor issues with mobile devices</li>
+        </ul>
+        
+        <h4>Version 1.2</h4>
+        <ul>
+        	<li>Fixed an issue with UTC</li>
+            <li>Fixed minor browser compatibility issues.</li>
+        </ul>
+        
+        <h4>Version 1.1</h4>
+        <ul>
+        	<li>Fixed issues with month translation</li>
+            <li>Added the possibility to select Monday/Sunday as the first day to display in the calendar</li>
+        </ul>
+        
+        <h4>Version 1.0</h4>
+	</section>
+
+	</div>
+    <script type="text/javascript">
+		 SyntaxHighlighter.all()
+	</script>
+</body>
+</html>

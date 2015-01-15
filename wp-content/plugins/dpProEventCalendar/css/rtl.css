@@ -1,0 +1,177 @@
+.dp_pec_wrapper .dp_pec_nav span.next_month,
+.dp_pec_wrapper .dp_pec_nav span.next_day {
+	left: 0;	
+        right: auto;
+}
+
+.dp_pec_wrapper .dp_pec_nav span.prev_month,
+.dp_pec_wrapper .dp_pec_nav span.prev_day {
+	right: 0;	
+        left: auto;
+}
+
+.dp_pec_wrapper .dp_pec_content .dp_pec_date {
+float: right;
+margin-left: 0;
+margin-right: 2%;
+}
+
+.dp_pec_wrapper .dp_pec_content .dp_pec_date.first-child {
+margin-left: 0;
+margin-right: 0;
+}
+
+.dp_pec_wrapper .dp_pec_dayname {
+margin-left: 0;
+margin-right: 2%;
+float: right;
+}
+
+.dp_pec_wrapper .dp_pec_dayname:first-child {
+margin-left: 0;
+margin-right: 0;
+}
+
+.month_arrows {
+position: absolute;
+left: 0;
+top: 0;
+height: 59px;
+width: 84px;
+}
+
+.dp_pec_wrapper .dp_pec_content .dp_pec_date .dp_date_head {
+	left: auto;
+	right: 0;
+}
+
+.dp_pec_accordion_wrapper .dp_pec_accordion_event span.pec_time,
+.dp_pec_accordion_wrapper .dp_pec_accordion_event .dp_pec_event_location,
+.dp_pec_accordion_wrapper .dp_pec_accordion_event .dp_pec_event_phone,
+.dp_pec_accordion_wrapper .dp_pec_accordion_event .dp_pec_event_categories,
+.dp_pec_wrapper .dp_pec_content .dp_pec_date_event span.dp_pec_date_event_time {
+	background-position: 100% 50% !important;
+	padding-right:21px !important;
+	padding-left: 0 !important;
+	text-align: right;
+}
+
+.dp_pec_wrapper .dp_pec_content .dp_pec_date_event span.dp_pec_date_event_time {
+	clear: both;
+}
+
+.dp_pec_wrapper .dp_pec_content .dp_pec_date_event_head.dp_pec_date_event_daily {
+background-position: 99% 50% !important;
+padding-right: 21px !important;
+padding-left: 0 !important;
+}
+
+.dp_pec_wrapper .dp_pec_content .dp_pec_date_event_head a.dp_pec_date_event_back {
+float:left !important;
+margin-left: 10px;
+}
+
+.dp_pec_wrapper .dp_pec_content .dp_pec_date_event_head span {
+margin-left: 0;
+margin-right: 25px;	
+}
+
+.dp_pec_wrapper .dp_pec_content .dp_pec_date .dp_date_head {
+float: right !important;
+right: 0 !important;
+left: auto !important;
+}
+
+.dp_pec_wrapper.dp_pec_daily .dp_daily_event,
+.dp_pec_new_event_wrapper .dp_pec_submit_event, 
+.dp_pec_new_event_wrapper .dp_pec_remove_event {
+float: right !important;
+}
+
+.dp_pec_content .dp_pec_date_event .pec_author,
+.dp_pec_content .dp_pec_date_event h1.dp_pec_event_title,
+.dp_pec_content .add_new_event_form,
+.dp_pec_content .add_new_event_form input,
+.dp_pec_content .add_new_event_form textarea,
+.dp_pec_wrapper .add_new_event_form,
+.dp_pec_wrapper .add_new_event_form input,
+.dp_pec_wrapper .add_new_event_form textarea,
+.dpProEventCalendar_eventform .add_new_event_form,
+.dpProEventCalendar_eventform .add_new_event_form input,
+.dpProEventCalendar_eventform .add_new_event_form textarea,
+.dp_pec_new_event_wrapper .dp_pec_content_header,
+.dp_pec_content .dp_pec_date_event .dp_pec_event_description,
+.dp_pec_layout input.dp_pec_search,
+.dp_pec_content,
+.dp_pec_wrapper .selectricWrapper,
+.eventsPreviewDiv,
+.dp_pec_accordion_wrapper .dp_pec_content_header h2,
+.dp_pec_accordion_wrapper .dp_pec_content_search .dp_pec_content_search_input,
+.dpProEventCalendarModal h2, 
+.dpProEventCalendarModalEditEvent h2 {
+	text-align: right;
+}
+
+.dp_pec_content .dp_pec_date_event h1.dp_pec_event_title .dp_pec_event_title_sp {
+	float: right;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.dp_pec_content .dp_pec_date_event .pec_edit_event {
+	margin-left: 0;
+}
+
+.dp_pec_new_event_wrapper .icheckbox_flat,
+.dp_pec_wrapper .dp_pec_check_all_day,
+.dpProEventCalendar_eventform .checkbox {
+	float: right;
+	margin-right: 0 !important;
+	margin-left: 5px !important;
+}
+
+.dp_pec_wrapper .dp_pec_content .dp_pec_date .dp_count_events {
+	left: 5px;
+	right: auto !important;
+}
+
+.eventsPreviewDiv ul li span {
+	float: right;
+	margin-left: 10px;
+	margin-right: 0 !important;
+}
+
+.dp_pec_new_event_wrapper .dp_pec_end_date_form .ui-datepicker-trigger {
+	left: 25px;
+	right: auto;
+}
+
+.dp_pec_new_event_wrapper .dp_pec_clear_end_date,
+.dp_pec_new_event_wrapper .ui-datepicker-trigger {
+	left: 5px;
+	right: auto;
+}
+
+.dpProEventCalendarModalEditEvent h2 {
+	padding: 0 10px 0 0;
+}
+
+.dpProEventCalendarModal h2 a.dpProEventCalendarClose, 
+.dpProEventCalendarModalEditEvent h2 a.dpProEventCalendarClose {
+	float:left;	
+}
+
+.dp_pec_wrapper.dp_pec_daily .dp_pec_content .dp_pec_date {
+	padding-right: 50px;
+	padding-left: 0;
+}
+
+.dp_pec_wrapper.dp_pec_400.dp_pec_daily .dp_pec_content .dp_pec_date {
+	padding-right: 40px;
+	padding-left: 0;
+}
+
+.dp_pec_accordion_wrapper .dp_pec_content_header span.events_loading {
+	left: 84px;
+	right: auto !important;
+}

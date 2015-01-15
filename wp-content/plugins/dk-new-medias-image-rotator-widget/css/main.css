@@ -1,0 +1,93 @@
+.irw_images {
+	width: 226px;
+	min-height: 1px;
+}
+
+.irw_header {
+	font-size: 12px;
+	border-bottom: 1px dashed #ccc;
+	margin-bottom: 10px;
+}
+
+.irw_header:first-child {
+	margin-top: 0;
+}
+
+.irw-old-browser {
+	background: pink;
+	border: 1px solid red;
+	padding: 5px;
+}
+
+.irw_images li {
+	width: 225px;
+	margin-bottom: 5px;
+	cursor: move;
+	height: 24px;
+	border: 1px transparent dashed;
+	float: left;
+}
+
+.ie7 .irw_images li {
+	float: left;
+	text-align: right;
+}
+
+.irw-placeholder {
+	background: #ebebeb !important;
+	height: 24px;
+	border: 1px #ccc dashed;
+}
+
+.irw_images li:hover {
+	border: 1px #ccc dashed;
+	background: #ffffff;
+}
+
+.irw_images span {
+	color: #21759B;
+	line-height: 24px;
+	margin-left: 5px;
+	cursor: pointer;
+	max-width: 50px;
+	float: left;
+	white-space: nowrap;
+}
+
+.irw_images li button {
+	float: right;
+}
+
+.add-image-button {
+	padding: 2px 6px;
+}
+
+.ie7 .irw_images li button {
+	width: 20px;
+	height: 20px;
+	display: inline !important;
+	padding: 2px 5px;
+	position: relative;
+	right: 2px;
+}
+
+.ie7 .irw_button {
+	float: right !important;
+	padding: 0 5px !important;
+	height: 15px !important;
+	line-height: 15px !important;
+	margin: 4px 4px !important;
+}
+
+.add_image {
+	background: none;
+	text-align: right;
+}
+
+.add_image.alert {
+	background: url('../images/add_image.png') no-repeat center left;
+}
+
+.irw-h5 {
+	margin-bottom: 0px;
+}

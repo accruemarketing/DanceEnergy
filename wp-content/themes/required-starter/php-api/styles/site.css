@@ -1,0 +1,8 @@
+* { margin: 0; padding: 0; }
+body { padding: 10px; font-family: Verdana; }
+table { border-collapse: collapse; border: 1px solid #CCCCCC; }
+tr { border-bottom: 1px solid #C1DAD7; }
+tr:first-child { font-weight: bold; background-color: #CCCCFA; }
+tr:hover { background-color: #FAFACC; }
+td { padding: 4px 10px; }
+p { margin-top: 10px; margin-bottom: 10px; }
