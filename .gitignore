@@ -1,7 +1,9 @@
 #Ignore these the sql especially
 wp-config.php
 /wp-content/uploads
+wp-config.php~
 .htpasswd
 .vagrant/
 logs/
 /provisioning/mysql/db7199_wrdp.sql
+wp-config.php~
