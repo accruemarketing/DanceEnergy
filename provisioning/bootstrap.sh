@@ -21,12 +21,12 @@ chkconfig iptables off
 
 mysql -u root -e "set global net_buffer_length=1000000; set global max_allowed_packet=1000000000;"
 
-MYSQL_RESULT=`mysqlshow --user=root  db7199_wrdp | grep -v Wildcard | grep -o db7199_wrdp`
+MYSQL_RESULT=`mysqlshow --user=root  dev_site | grep -v Wildcard | grep -o dev_site`
 
-if [ "$MYSQL_RESULT" != "db7199_wrdp" ]; then
-    echo "create database db7199_wrdp" | mysql -u root 
+if [ "$MYSQL_RESULT" != "dev_site" ]; then
+    echo "create database dev_site" | mysql -u root 
 fi
 
-mysql -u root db7199_wrdp < /vagrant/provisioning/mysql/db7199_wrdp.sql
+mysql -u root dev_site < /vagrant/provisioning/mysql/db7199_wrdp.sql
 #Set local new urls
-mysql -u root -e "use db7199_wrdp; UPDATE wp_options SET option_value = replace(option_value, 'http://dancenergy.zenutech.com', 'http://localhost.localdomain:8080'); UPDATE wp_posts SET guid = replace(guid, 'http://dancenergy.zenutech.com','http://localhost.localdomain:8080'); UPDATE wp_posts SET post_content = replace(post_content, 'http://dancenergy.zenutech.com', 'http://localhost.localdomain:8080'); UPDATE wp_postmeta SET meta_value = replace(meta_value, 'http://dancenergy.zenutech.com', 'http://localhost.localdomain:8080'); UPDATE wp_options SET option_value = replace(option_value, '/dancenergy.zenutech.com/', '/localhost.localdomain:8080/');"
+mysql -u root -e "use dev_site; update wp_options set option_value = 'http://localhost.localdomain:8080' where option_id = 1; update wp_options set option_value = 'http://localhost.localdomain:8080' where option_id = 1464; update wp_options set option_value = 'http://localhost.localdomain:8080' where option_id = 36;"
